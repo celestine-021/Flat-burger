@@ -1,18 +1,18 @@
-const menu=["hamburger","pizza","pasta","salad","ice cream","soda","coffee","tea","cake","cookies"];
-let drink="lemonade";
+const burgers=["hamburger" ,"cheeseburger" ];
+let drink="soda";
 //function scope
 function getFeatureString(featureItem){
     //description is function scope
  let description="Our special feature today is the"+featureItem;
     return description;
-}
+}""
 //block scope*Also push the variable to the array
-if(menu.length>0){
-    let seasonalItem="pizza";
-    menu.push(seasonalItem);    
+if(burgers.length>0){
+    let seasonalItem="Milkshake";
+    burgers.push(seasonalItem);    
 
 
 }
-console.log("Full Menu:", menu);
-console.log(getFeatureString("pizza"));
+console.log("Full Burgers:", burgers);
+console.log(getFeatureString("Milkshake"));
 console.log("Current Drink:", drink);
