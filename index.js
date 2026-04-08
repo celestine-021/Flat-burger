@@ -8,8 +8,8 @@ function getFeatureString(featureItem){
 }
 //block scope*Also push the variable to the array
 if(menu.length>0){
-    let SeasonalItem="pizza";
-    menu.push(SeasonalItem);    
+    let seasonalItem="pizza";
+    menu.push(seasonalItem);    
 
 
 }
