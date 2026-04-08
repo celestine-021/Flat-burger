@@ -1,8 +1,4 @@
 const burgers=["hamburger" ,"cheeseburger" ];
-let restaurantName= "Flatburger Restaurant";
-console.log("welcome to " +restaurantName);
-console.log("Burgers:",burgers);
-
 let selectedBurger;
 //function scope
 function makeBurger() {
