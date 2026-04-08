@@ -7,12 +7,12 @@ selectedBurger=burgers[1];
 }
 makeBurger();
 //block scope*
-if(selectedBurger=== "Cheeseburger"){
+if(selectedBurger === "Cheeseburger"){
     let message ="This is a delicious Cheeseburger...";
     console.log(message);
 }
 
 // Also push the variable to the array
-    burgers.push("Veggie burger");  
+    burgers.push("Veggieburger");  
     
     console.log("updated:", burgers);
