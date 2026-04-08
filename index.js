@@ -1,4 +1,4 @@
-const burgers=["Hamburger","Cheeseburger" ];
+const burgers=["Hamburger","Cheeseburger"];
 let selectedBurger;
 //function scope
 function makeBurger() {
