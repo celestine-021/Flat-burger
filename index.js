@@ -1,18 +1,22 @@
 const burgers=["hamburger" ,"cheeseburger" ];
-let drink="soda";
+let restaurantName= "Flatburger Restaurant";
+console.log("welcome to " +restaurantName);
+console.log("Burgers:",burgers);
+
+let selectedBurger;
 //function scope
-function getFeatureString(featureItem){
-    //description is function scope
- let description="Our special feature today is the"+featureItem;
-    return description;
-}""
-//block scope*Also push the variable to the array
-if(burgers.length>0){
-    let seasonalItem="Milkshake";
-    burgers.push(seasonalItem);    
-
-
+function makeBurger() {
+selectedBurger=burgers[1];
+ console.log("selected:", selectedBurger);
 }
-//console.log("Full Burgers:", burgers);
-//console.log(getFeatureString("Milkshake"));
-//console.log("Current Drink:", drink);
+makeBurger();
+//block scope*
+if(selectedBurger=== "cheeseburger"){
+    let message ="This is a delicious cheeseburger...";
+    console.log(message);
+}
+
+// Also push the variable to the array
+    burgers.push("veggie Burger");  
+    
+    console.log("updated:", burgers);
