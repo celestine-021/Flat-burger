@@ -13,6 +13,6 @@ if(burgers.length>0){
 
 
 }
-console.log("Full Burgers:", burgers);
-console.log(getFeatureString("Milkshake"));
-console.log("Current Drink:", drink);
+//console.log("Full Burgers:", burgers);
+//console.log(getFeatureString("Milkshake"));
+//console.log("Current Drink:", drink);
