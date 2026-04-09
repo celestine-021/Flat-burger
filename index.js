@@ -12,7 +12,6 @@ if(selectedBurger === "Cheeseburger"){
     console.log(message);
 }
 
-// Also push the variable to the array
-    burgers.push("Veggieburger");  
+    burgers.push("Veggieburger");
     
     console.log("updated:", burgers);
